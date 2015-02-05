@@ -27,11 +27,10 @@ func callbackGet (a: String, b: String?) -> Void{
 }
 
 
-
 httpGet("http://localhost/tfg_server/1/eventos", callbackGet)
 
-
-
-
+/*
+    Descomentar esta línea en el PlayGround
+*/
 //XCPSetExecutionShouldContinueIndefinitely(continueIndefinitely: true)
 
